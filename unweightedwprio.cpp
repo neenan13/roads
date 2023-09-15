@@ -8,6 +8,7 @@
 using namespace std;
 
 #define START_INTERSECTION 0
+#define FILE_NAME "district1data(5).txt"
 #define UPDATE_TIME 1000
 
 struct Road {
@@ -216,7 +217,7 @@ int main()
 
 
     srand(time(0));
-    Graph g("data.txt");
+    Graph g(FILE_NAME);
 
     double minDist = DBL_MAX;
     int bestSeed;
