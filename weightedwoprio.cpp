@@ -21,7 +21,7 @@ struct Road {
         from = f;
         to = t;
         priority = p;
-        weight = d/(100*p);
+        weight = w;
         realDistance = d;
         plowed = false;
     }
